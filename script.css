@@ -130,6 +130,11 @@ a:hover {
 /* width: 100%; /* Full width */
 /*  }
 }*/
+@media (max-width: 950px) {
+  h2 {
+    font-size: 2em;
+  }
+}
 
 @media (max-width: 900px) {
   .grid-container {
