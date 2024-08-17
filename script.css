@@ -130,3 +130,50 @@ a:hover {
 /* width: 100%; /* Full width */
 /*  }
 }*/
+
+@media (max-width: 900px) {
+  .grid-container {
+    display: block;
+  }
+  .image-section img {
+    width: 100%;
+  }
+  .text-section {
+    width: 100%;
+  }
+  h2 {
+    font-size: 2em;
+  }
+  header {
+    padding: 1.5% 0;
+  }
+  h1 {
+    font-size: 1em;
+  }
+  .imageline {
+    word-spacing: 1px;
+    line-height: 1.6em;
+    width: 90%;
+    height: 100%;
+    font-size: 3vw;
+  }
+  p {
+    word-spacing: 1px;
+    line-height: 1.6em;
+    width: 90%;
+    height: 100%;
+    font-size: 3vw;
+  }
+  ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  li {
+    padding: 0.5em;
+  }
+  header nav ul li a {
+    font-size: 1.5em;
+    padding: 1em;
+  }
+}
