@@ -1,7 +1,9 @@
 html {
   scroll-behavior: smooth;
 }
-
+body {
+  padding-top: 150px; /* Adjust this value to the height of your fixed header */
+}
 ul {
   display: flex;
   justify-content: center;
@@ -35,9 +37,9 @@ body {
 }
 
 header {
-  background-color: rgb(32, 97, 99);
+  /* background-color: rgb(32, 97, 99);*/
   color: white;
-  padding: 1.5% 0;
+  /* padding: 1.5% 0; */
   text-align: center;
 }
 
@@ -118,6 +120,24 @@ a {
 }
 a:hover {
   text-decoration: underline;
+}
+
+header {
+  position: relative; /* Ensure the header stacks properly */
+  width: 100%;
+  background-color: rgb(32, 97, 99); /* Adjust the background color as needed */
+  z-index: 1000; /* High z-index to keep it on top */
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: rgb(32, 97, 99);
+  padding: 10px 0;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 /*Media query for mobile devices and smaller tabs*/
