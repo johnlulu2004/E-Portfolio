@@ -104,7 +104,8 @@ h2 {
   grid-template-columns: 1fr 1fr; /* Two equal columns */
   width: 100%;
 }
-.image-section img {
+.image-section img,
+.image-section video {
   margin-top: 4%;
   width: 90%; /* Make the image cover the container width */
   height: auto; /* Maintain aspect ratio */
@@ -140,7 +141,8 @@ a:hover {
   .grid-container {
     display: block;
   }
-  .image-section img {
+  .image-section img,
+  .image-section video {
     width: 100%;
   }
   .text-section {
