@@ -48,10 +48,10 @@ header h1 {
   padding: 0.7em;
   font-size: 2em;
   opacity: 0; /* Start as invisible */
-  animation: fadeIn 2s forwards; /* Apply animation */
+  animation: fadeIn 1.5s forwards; /* Apply animation */
 }
 .animated {
-  animation: fadeIn 2s forwards; /* Apply animation */
+  animation: fadeIn 1.5s forwards; /* Apply animation */
 }
 @keyframes fadeIn {
   from {
@@ -180,7 +180,7 @@ hr {
     padding: 1.5% 0;
   }
   h1 {
-    font-size: 1em;
+    font-size: 1.2em;
   }
   .imageline {
     word-spacing: 1px;
