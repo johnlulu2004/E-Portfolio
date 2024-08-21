@@ -1,6 +1,7 @@
 html {
   scroll-behavior: smooth;
 }
+
 ul {
   display: flex;
   justify-content: center;
@@ -86,17 +87,17 @@ p {
   line-height: 1.6em;
   width: 70%;
   height: 100%;
-  font-size: 1.75vw;
+  font-size: 1.6vw;
 }
 .imageline {
   word-spacing: 1px;
   line-height: 1.6em;
   width: 75%;
   height: 100%;
-  font-size: 1.75vw;
+  font-size: 1.6vw;
 }
 h2 {
-  font-size: 3em;
+  font-size: 2.5em;
   padding: 0.5em 0;
 }
 .grid-container {
