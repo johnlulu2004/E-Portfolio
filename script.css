@@ -120,27 +120,16 @@ a:hover {
   text-decoration: underline;
 }
 
-/*Media query for mobile devices @media (max-width: 768px) {
-  .container {
-    flex-direction: column; /*Stack items vertically */
-/*   height: auto;
-  }
-
-  .text-section,
-  .image-section {
-    flex: none; /* Allow items to take their natural height */
-/* width: 100%; /* Full width */
-/*  }
-}*/
+/*Media query for mobile devices and smaller tabs*/
 
 @media (max-width: 1112px) {
   h2 {
-    font-size: 2.5em;
+    font-size: 2.3em;
   }
 }
 @media (max-width: 1000px) {
   h2 {
-    font-size: 2.3em;
+    font-size: 2em;
   }
 }
 @media (max-width: 950px) {
