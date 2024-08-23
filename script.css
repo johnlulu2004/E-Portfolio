@@ -2,7 +2,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  padding-top: 150px; /* Adjust this value to the height of your fixed header */
+  padding-top: 260px; /* Adjust this value to the height of your fixed header */
 }
 ul {
   display: flex;
@@ -125,7 +125,6 @@ a:hover {
 header {
   position: relative; /* Ensure the header stacks properly */
   width: 100%;
-  background-color: rgb(32, 97, 99); /* Adjust the background color as needed */
   z-index: 1000; /* High z-index to keep it on top */
 }
 
