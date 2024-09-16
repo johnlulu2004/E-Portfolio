@@ -162,6 +162,12 @@ hr {
 }
 
 @media (max-width: 900px) {
+  h2 {
+    font-size: 1.8em;
+  }
+  .fixed {
+    padding: 6px 0;
+  }
   .grid-container {
     display: block;
   }
